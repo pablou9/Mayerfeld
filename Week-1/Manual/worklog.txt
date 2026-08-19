@@ -1,0 +1,5 @@
+Task 1: Create Nav in Index.html:
+    Solution: Mav inside <header> inside list. 
+
+Task 2: Create different parts of the page.
+    Solution: Create <section> for each one.
