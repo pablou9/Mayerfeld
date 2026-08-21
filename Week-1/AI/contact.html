@@ -1,166 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contacta con Vómer Fisioterapia">
-    <title>Vómer Fisioterapia | Contacto</title>
+    <title>Contact | Vómer Physiotherapy</title>
 </head>
-
 <body>
-
     <header>
-        <h1>Vómer Fisioterapia</h1>
+        <h1>Vómer</h1>
 
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="about.html">Sobre nosotros</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Vómer</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-
         <section>
-            <h2>Contacta con nosotros</h2>
-
+            <h2>Get in touch</h2>
             <p>
-                Si tienes alguna pregunta o quieres solicitar información
-                sobre nuestros tratamientos, puedes utilizar el siguiente
-                formulario.
+                Fill out the form and we will contact you.
             </p>
-        </section>
-
-        <section>
-            <h2>Formulario de contacto</h2>
 
             <form action="#" method="post">
-
                 <fieldset>
-
-                    <legend>Datos personales</legend>
+                    <legend>Contact form</legend>
 
                     <p>
-                        <label for="nombre">Nombre:</label>
-                        <input
-                            type="text"
-                            id="nombre"
-                            name="nombre"
-                            required
-                        >
+                        <label for="nombre">Name:</label><br>
+                        <input type="text" id="nombre" name="nombre" required>
                     </p>
 
                     <p>
-                        <label for="email">Correo electrónico:</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                        >
+                        <label for="email">Email address:</label><br>
+                        <input type="email" id="email" name="email" required>
                     </p>
 
                     <p>
-                        <label for="telefono">Teléfono:</label>
-                        <input
-                            type="tel"
-                            id="telefono"
-                            name="telefono"
-                        >
+                        <label for="telefono">Phone:</label><br>
+                        <input type="tel" id="telefono" name="telefono">
                     </p>
 
                     <p>
-                        <label for="motivo">Motivo de contacto:</label>
-
-                        <select id="motivo" name="motivo">
-
-                            <option value="informacion">
-                                Solicitar información
-                            </option>
-
-                            <option value="cita">
-                                Solicitar una cita
-                            </option>
-
-                            <option value="tratamiento">
-                                Información sobre tratamientos
-                            </option>
-
-                            <option value="otro">
-                                Otro
-                            </option>
-
+                        <label for="servicio">Service of interest:</label><br>
+                        <select id="servicio" name="servicio">
+                            <option value="sports-physiotherapy">Sports physiotherapy</option>
+                            <option value="rehabilitation">Rehabilitation</option>
+                            <option value="manual-therapy">Manual therapy</option>
+                            <option value="therapeutic-exercise">Therapeutic exercise</option>
+                            <option value="other">Other</option>
                         </select>
                     </p>
 
                     <p>
-                        <label for="mensaje">Mensaje:</label>
+                        <label for="mensaje">Message:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="6" cols="40" required></textarea>
                     </p>
 
                     <p>
-                        <textarea
-                            id="mensaje"
-                            name="mensaje"
-                            rows="8"
-                            cols="50"
-                            required
-                        ></textarea>
+                        <button type="submit">Send message</button>
+                        <button type="reset">Clear form</button>
                     </p>
-
-                    <p>
-                        <input
-                            type="submit"
-                            value="Enviar mensaje"
-                        >
-                    </p>
-
                 </fieldset>
-
             </form>
         </section>
 
-        <section>
-            <h2>Información de contacto</h2>
-
+        <aside>
+            <h2>Information</h2>
             <address>
-
-                <p>
-                    Vómer Fisioterapia
-                </p>
-
-                <p>
-                    Calle de la Salud, 25<br>
-                    Madrid, España
-                </p>
-
-                <p>
-                    Teléfono:
-                    <a href="tel:+34910000000">
-                        +34 910 000 000
-                    </a>
-                </p>
-
-                <p>
-                    Email:
-                    <a href="mailto:info@vomerfisioterapia.com">
-                        info@vomerfisioterapia.com
-                    </a>
-                </p>
-
+                Vómer Physiotherapy<br>
+                Health Street, 25<br>
+                Madrid, Spain<br>
+                <a href="mailto:info@vomer.es">info@vomer.es</a>
             </address>
-        </section>
-
+        </aside>
     </main>
 
     <footer>
-        <p>&copy; 2026 Vómer Fisioterapia. Todos los derechos reservados.</p>
-
-        <p>
-            <a href="index.html">Volver al inicio</a>
-        </p>
+        <p>&copy; 2026 Vómer Physiotherapy.</p>
     </footer>
-
 </body>
 </html>

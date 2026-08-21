@@ -1,5 +1,28 @@
-Task 1: Create Nav in Index.html:
-    Solution: Mav inside <header> inside list. 
+Task 1: Create same nav structure in different files:
+    Solution: 
+        - Nav inside <header> inside list. 
+        - Same class in every document to make future improvement easier. 
 
 Task 2: Create different parts of the page.
-    Solution: Create <section> for each one.
+    Solution: 
+        - Create <section> for each one.
+
+Task 3: Create Footer
+    Solution: 
+        - Same in every page to make easier future improvements.
+        - &copy for copyright simbol. 
+
+
+CONTACT
+
+Task 5: Create form in "contact.html":
+    - Solution: <legend> in "Personal information" to create a title for the form group
+
+Task 6: Create drop-down list in Reason For Contact. 
+    - Solution: <select> 
+
+Problem: 
+    - Navegation index -> about (127.0.0.1 denied connection) | Solution: Restart explorer. 
+
+
+Task 7: Comment links in "about" & "contact" to not navegate to same page. 

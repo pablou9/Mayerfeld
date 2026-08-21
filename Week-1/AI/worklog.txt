@@ -1,0 +1,69 @@
+PROMPT 1:
+
+I need you to create a physiotherapy website called "vómer" exclusively with HTML (do not use CSS, not even inline, nor JavaScript).
+
+The website must include:
+ - Three files (index.html, about.html, contact.html)
+ - A basic valid HTML document structure.
+ - Navigation between the three pages
+ - At least one image
+ - At least one list
+ - Links
+ - A simple contact form
+ - Appropriate HTML semantic elements where possible
+
+ANSWER 1:
+I have created the Vómer Physiotherapy website meeting the requirements:
+- index.html — Home page
+- about.html — About Vómer
+- contact.html — Contact form
+- Valid and semantic HTML
+- Navigation between the 3 pages
+- Image
+- Lists <ul> and <ol>
+- Links <a>
+- Form with different types of fields
+- <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>, <address>, etc.
+- 0 CSS
+- 0 JavaScript
+- No inline styles
+
+PROMPT 2:
+Do not use CSS here (index.html)  <img
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80"
+                alt="Healthcare professional assisting a person"
+                width="600">
+
+
+ANSWER 2: S
+<img
+    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80"
+    alt="Profesional sanitario atendiendo a una persona">
+
+Yes. If the goal is pure HTML, remove width="600" as well, since—even if it's not technically CSS—it alters the image's presentation via an HTML attribute.
+Leave it like this:
+<img
+    src="..."
+    alt="Healthcare professional assisting a person">
+This way the <img> element has no style or sizing attributes and fully complies with the requirement to use only HTML.
+
+
+
+EXPLAIN: 
+1. INDEX.HTML
+    - <main>: instead of body, this is the most important part of the page.
+
+2. ABOUT.HTML
+    - <article>: Semantically, it can represent independent content on the page, but in your case it is really not necessary.
+
+3. CONTACT.HTML
+<fieldset>
+                    <legend>Contact form</legend>
+
+                    <p>
+                        <label for="nombre">Name:</label><br>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+
+
+ANSWER:<fieldset> is used to group and organize the fields of a form.
