@@ -28,6 +28,9 @@ I have created the Vómer Physiotherapy website meeting the requirements:
 - 0 JavaScript
 - No inline styles
 
+
+
+
 PROMPT 2:
 Do not use CSS here (index.html)  <img
                 src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80"
@@ -46,6 +49,9 @@ Leave it like this:
     src="..."
     alt="Healthcare professional assisting a person">
 This way the <img> element has no style or sizing attributes and fully complies with the requirement to use only HTML.
+
+
+
 
 
 
